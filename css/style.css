@@ -1,0 +1,32 @@
+body {
+  color: white;
+}
+
+nav {
+  background-color: #ddd;
+  height: 70px;
+  margin-left: 200px;
+}
+
+aside {
+  background-color: #ccc;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+aside + div {
+  height: 70px;
+  background-color: #333333;
+}
+
+main {
+  background-color: #eaeaea;
+  margin-left: 200px;
+}
+
+footer {
+  background-color: #aaa;
+  margin-left: 200px;
+}
