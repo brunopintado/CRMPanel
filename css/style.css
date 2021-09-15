@@ -1,5 +1,6 @@
 body {
   color: white;
+  background: #f1f1f1;
 }
 
 nav {
@@ -16,17 +17,36 @@ aside {
   top: 0;
 }
 
-aside + div {
+main {
+  background-color: #eaeaea;
+  margin-left: 225px;
+  margin-right: 1%;
+  display: block;
+  padding-top: 20px;
+}
+
+main>div {
+  width: 98%;
+  margin: 20px auto;
+}
+
+
+aside div {
   height: 70px;
+  padding: 0px;
   background-color: #333333;
 }
 
-main {
-  background-color: #eaeaea;
-  margin-left: 200px;
+main section {
+  background: white;
+  display: block;
+  height: 50vh;
+  width: 48%;
+  margin: 15px 1%;
+  float: left;
 }
 
-footer {
-  background-color: #aaa;
-  margin-left: 200px;
+main section:last-of-type {
+  width: 98%;
+  height: 30vh;
 }
