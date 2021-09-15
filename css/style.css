@@ -6,6 +6,9 @@ nav {
   background-color: #d1d1d1;
   height: 70px;
   margin-left: 200px;
+  padding: 0px;
+  padding-left: 30px;
+  padding-top: 20px;
 }
 
 aside {
@@ -14,11 +17,19 @@ aside {
   height: 100vh;
   position: fixed;
   top: 0;
+
 }
 
-aside + div {
+aside div {
   height: 70px;
   background-color: #333333;
+  padding: 0px;
+  text-align: center;
+}
+aside div+div{
+  background: transparent;
+  height: auto;
+  text-align: left;
 }
 
 main {
@@ -26,7 +37,22 @@ main {
   margin-left: 200px;
 }
 
+section {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
 footer {
   background-color: #aaa;
   margin-left: 200px;
 }
+main Section{
+  width: 800px;
+  height: 400px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+main section+section{
+  margin-left: 850px;
+}
+
