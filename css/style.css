@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+
 body {
   color: white;
   background: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -31,10 +35,16 @@ main>div {
 }
 
 
-aside div {
+aside div:first-child {
   height: 70px;
   padding: 0px;
   background-color: #333333;
+  padding-top: 25px;
+  height: 45px;
+  max-height: 70px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 main section {
