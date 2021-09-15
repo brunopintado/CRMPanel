@@ -3,18 +3,22 @@
 
 body {
   color: white;
-  background: #f1f1f1;
+  background: #ebecee;
   font-family: 'Poppins', sans-serif;
 }
 
 nav {
-  background-color: #d1d1d1;
-  height: 70px;
+  background-color: #bfc0c2;
+  height: 45px;
   margin-left: 200px;
+  padding-top: 25px;
+  padding-left: 30px;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 aside {
-  background-color: #ccc;
+  background-color: #bfc0c2;
   width: 200px;
   height: 100vh;
   position: fixed;
@@ -37,14 +41,15 @@ main>div {
 
 aside div:first-child {
   height: 70px;
-  padding: 0px;
-  background-color: #333333;
   padding-top: 25px;
+  background-color: #818286;
   height: 45px;
   max-height: 70px;
   overflow: hidden;
   text-align: center;
   font-size: 1.5em;
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 
 main section {
