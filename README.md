@@ -1,2 +1,0 @@
-# CRMPanel
-Created with CodeSandbox
