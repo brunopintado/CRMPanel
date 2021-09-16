@@ -1,3 +1,4 @@
+/* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
 
 
@@ -7,37 +8,38 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+
+
+
+
+/* NAVBAR */
+
 nav {
   background-color: #bfc0c2;
   height: 45px;
-  margin-left: 200px;
+  margin-left: 250px;
   padding-top: 25px;
   padding-left: 30px;
   font-weight: 300;
   font-size: 20px;
+  position: fixed;
+  width: 100%;
 }
+
+
+
+
+
+/* ASIDE */
 
 aside {
   background-color: #bfc0c2;
-  width: 200px;
+  width: 250px;
   height: 100vh;
   position: fixed;
   top: 0;
+  overflow: hidden;
 }
-
-main {
-  background-color: #eaeaea;
-  margin-left: 225px;
-  margin-right: 1%;
-  display: block;
-  padding-top: 20px;
-}
-
-main>div {
-  width: 98%;
-  margin: 20px auto;
-}
-
 
 aside div:first-child {
   height: 70px;
@@ -50,6 +52,114 @@ aside div:first-child {
   font-size: 1.5em;
   font-weight: 800;
   letter-spacing: 2px;
+  position: relative;
+}
+
+aside div:last-child{
+  position: relative;
+  height: 100vh;
+  top: -70px;
+  padding-top: 70px;
+  width: 100%;
+}
+
+
+aside ul{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 42px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+aside ul:first-of-type{
+  border-bottom: 1px solid white;
+}
+
+aside ul:last-of-type {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  position: absolute;
+  width: 100%;
+  bottom: 70px;
+  padding-left: 0;
+}
+
+aside ul li a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0 20px;
+}
+
+aside ul li a:hover{
+  background-color: #818286;
+}
+
+aside ul li a.menu{
+  position: relative;
+}
+
+aside ul li a.menu::after {
+  content: ' >';
+  color: #dadada;
+  position: absolute;
+  right: 40px;
+  top: 5px;
+}
+
+aside ul li a::before {
+  content: ' ';
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-color: #ebecee;
+  border-radius: 30px;
+  margin-right: 15px;
+  position: relative;
+  top: 8px;
+}
+
+aside ul:last-of-type li{
+  padding-bottom: 20px;
+}
+
+aside ul:last-of-type li:first-child{
+  padding-bottom: 0;
+}
+
+aside ul:last-of-type li:last-child{
+  border-top: 1px solid white;
+  padding-top: 40px;
+}
+
+aside ul:last-of-type li:last-child a::before,
+aside ul:last-of-type li:last-child a::after{
+  content: '';
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+/* MAIN */
+
+main {
+  background-color: #eaeaea;
+  margin-left: 275px;
+  margin-right: 1%;
+  display: block;
+  padding-top: 95px;
+}
+
+main>div {
+  width: 98%;
+  margin: 20px auto;
 }
 
 main section {
